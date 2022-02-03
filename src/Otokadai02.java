@@ -1,7 +1,7 @@
 import jp.jc21.t.yoshizawa.otopika.Otopika;
 
 /**
- * 
+ *
  */
 
 
@@ -9,7 +9,7 @@ import jp.jc21.t.yoshizawa.otopika.Otopika;
  * @author AB2B08
  *
  */
-public class Otokadai01  {
+public class Otokadai02  {
 
 	/**
 	 * @param args
@@ -18,7 +18,11 @@ public class Otokadai01  {
 		Otopika oto = new Otopika();
 		oto.powerOn();
 		while(true) {
-			oto.lightAll();
+			oto.lightGreen();
+			oto.sleep();
+			oto.lightYellow();
+			oto.sleep();
+			oto.lightRed();
 			oto.sleep();
 			oto.lightOff();
 			oto.sleep();
