@@ -30,8 +30,6 @@ public class OtoSample01  {
 			oto.sleep();
 			oto.lightYellowRed();
 			oto.sleep();
-			oto.oto1.lightOff();();
-			oto.sleep();
 			oto.lightGreenRed();
 			oto.sleep();
 		}
