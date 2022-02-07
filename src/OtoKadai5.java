@@ -33,14 +33,14 @@ public class OtoKadai5  {
 			oto1.sleep();
 			oto1.lightOff();
 			oto2.lightGreen();
-			oto1.sleep();
-			oto1.lightOff();
+			oto2.sleep();
+			oto2.lightOff();
 			oto2.lightYellow();
-			oto1.sleep();
-			oto1.lightOff();
+			oto2.sleep();
+			oto2.lightOff();
 			oto2.lightRed();
-			oto1.sleep();
-			oto1.lightOff();
+			oto2.sleep();
+			oto2.lightOff();
 		}
 
 	}
