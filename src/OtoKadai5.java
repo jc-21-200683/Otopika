@@ -22,10 +22,7 @@ public class OtoKadai5  {
 		while(true) {
 			oto1.lightGreen();
 			oto1.sleep();
-			
-			oto1.lightYellow();
-			oto1.sleep();
-			oto1.lightOff();
+			oto2.lightOff();
 			oto1.lightYellow();
 			oto1.sleep();
 			oto1.lightOff();
